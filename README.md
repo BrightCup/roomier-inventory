@@ -33,7 +33,7 @@
 
 产物在 `build/libs/roomier-inventory-1.0.0.jar`。
 
-> 仓库未包含 `gradle/wrapper/gradle-wrapper.jar`（二进制文件未随源码提交）。首次构建前先执行一次 `gradle wrapper --gradle-version 9.2.1`，或直接用 IntelliJ IDEA 导入该 Gradle 项目。
+直接 `./gradlew build` 即可，仓库自带 Gradle wrapper（9.2.1）。
 
 国内网络如果拉不到 `maven.neoforged.net`，可参考项目外的 `neoforge-mirror.init.gradle` 思路，把仓库重定向到 `https://neoforged.forgecdn.net/releases`。
 
